@@ -1,27 +1,16 @@
-# AngularProdutos
+# Produtos-Angular
+  Esta aplicação foi construída utilizando o framework **Angular**. O intuito é criar uma aplicação que consome uma API NodeJS, com as funções básicas de **CRUD**.
+  
+  Aplicação para estudos.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+# Utilização
 
-## Development server
+* Para utilizar esta aplicação, você precisará de:
+  ** NodeJs e NPM instalados em sua máquina;
+  ** Com o NodeJS e o NPM devidamente instalados, utilize o comando ```npm install -g @angular/cli``` para instalar globalmente o **Angular CLI** em sua máquina.
+  ** Você também precisará da API em NodeJS que a aplicação consomirá. A mesma encontra-se disponível neste mesmo perfil, chamada **API-Produtos**.
+* Assim que a API estiver devidamente disponível em seu ambiente local, entre com outra instância do CMD/Terminal na pasta do projeto desta aplicação e use o comando ```ng serve```.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Se tudo ocorreu corretamente, a API estará rodando na ```porta 4080``` e a aplicação Angular estará rodando no endereço ```http://localhost:4200```.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Todo o código base é criado pelo framework CLI e todo o código adicionado foi comentado com a maior simplicidade possível.
